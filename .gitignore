@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (large)
+DATASET/*.csv
+DATASET/*.xlsx
+DATASET/*.parquet
+DATASET/*.h5
+DATASET/*.hdf5
+DATASET/*.pkl
+DATASET/*.zip
+DATASET/*.tar.gz
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
