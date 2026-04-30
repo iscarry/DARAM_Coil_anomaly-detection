@@ -9,15 +9,8 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data files (large)
-DATASET/*.csv
-DATASET/*.xlsx
-DATASET/*.parquet
-DATASET/*.h5
-DATASET/*.hdf5
-DATASET/*.pkl
-DATASET/*.zip
-DATASET/*.tar.gz
+# DATASET — 회사 기밀, 절대 업로드 금지
+DATASET/
 
 # Model weights
 *.pt
